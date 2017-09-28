@@ -4,12 +4,12 @@ body, html {
 }
 
 .background {
-    background-position: center;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("background.jpg");
-    height: 100%;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("background.jpg");
+  height: 100%;
 }
 .banner {
     background: rgba(225, 225, 225, .8);
@@ -60,16 +60,16 @@ body, html {
 }
 
 @media (max-width: 800px) {
-    .logo img {
-        max-width: 75%;
-    }
-    .banner {
-        background: rgba(225, 225, 225, .8);
-        height: 50%;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+  .logo img {
+      max-width: 75%;
+  }
+  .banner {
+      background: rgba(225, 225, 225, .8);
+      height: 50%;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
     .shop-links {
         font-size: 1em;
     }
