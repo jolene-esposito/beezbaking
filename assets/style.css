@@ -44,6 +44,7 @@ body, html {
 .shop-links {
     text-decoration: none;
     color: #864b05;
+    font-size: 1.5em;
 }
 
 .social-media img {
@@ -69,4 +70,7 @@ body, html {
       top: 50%;
       transform: translateY(-50%);
   }
+    .shop-links {
+        font-size: 1em;
+    }
 }
