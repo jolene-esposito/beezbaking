@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("background.jpg");
+  height: 100%;
+}
+.banner {
+    background: rgba(225, 225, 225, .8);
+    height: 65%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logo {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+.shop {
+    font-family: "verdana";
+    color: #663416 ;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 10px;
+
+}
+
+.logo img {
+    max-width: 60%;
+}
+
+.shop-links {
+    text-decoration: none;
+    color: #864b05;
+}
+
+.social-media img {
+    padding-left: 10px;
+    max-height: 50px;
+    padding-right: 15px;
+}
+
+.social-media {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 800px) {
+  .logo img {
+      max-width: 75%;
+  }
+  .banner {
+      background: rgba(225, 225, 225, .8);
+      height: 50%;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+}
